@@ -128,3 +128,177 @@ body {
         padding: 0 15px;
     }
 }
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #374151;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    max-width: 800px;
+}
+
+.cta-btn {
+    background: #7c3aed;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    background: #6d28d9;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 0;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+    
+    .sign-up-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .main-heading {
+        font-size: 32px;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    
+    .cta-btn {
+        padding: 14px 28px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-heading {
+        font-size: 28px;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+}
+
+
+/* See It in Action Section Styles */
+.action-section {
+    background: #ffffff;
+    padding: 80px 0;
+    margin-top: 60px;
+}
+
+.action-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.action-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.action-heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.action-description {
+    font-size: 18px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.action-btn {
+    background: #7c3aed;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+    background: #6d28d9;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.3);
+}
+
+.action-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-mockup {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design for Action Section */
+@media (max-width: 768px) {
+    .action-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    .action-heading {
+        font-size: 32px;
+    }
+    
+    .action-description {
+        font-size: 16px;
+    }
+    
+    .action-btn {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .action-section {
+        padding: 60px 0;
+    }
+    
+    .action-heading {
+        font-size: 28px;
+    }
+}
