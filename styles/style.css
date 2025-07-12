@@ -302,3 +302,266 @@ body {
         font-size: 28px;
     }
 }
+.stats-section {
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    padding: 80px 0;
+    margin-top: 0;
+}
+
+.stats-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.stats-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 64px;
+    font-weight: 800;
+    color: #7c3aed;
+    line-height: 1;
+    margin-bottom: 10px;
+    letter-spacing: -2px;
+}
+
+.stat-label {
+    font-size: 16px;
+    color: #6b7280;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Design for Stats Section */
+@media (max-width: 768px) {
+    .stats-section {
+        padding: 60px 0;
+    }
+    
+    .stats-container {
+        margin: 0 20px;
+        padding: 40px 20px;
+    }
+    
+    .stats-heading {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .stat-number {
+        font-size: 48px;
+    }
+    
+    .stat-label {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-container {
+        padding: 30px 15px;
+    }
+    
+    .stats-heading {
+        font-size: 24px;
+    }
+    
+    .stat-number {
+        font-size: 40px;
+    }
+}
+.rating-container {
+    font-family: Arial, sans-serif;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px auto;
+}
+
+.stars .star-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewer-info .reviewer-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-info span {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0 5px;
+}
+
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.review-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.stars .star-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.review-card h2 {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.review-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.reviewer-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-info span {
+    display: block;
+    font-size: 0.9em;
+    color: #888;
+.ready to focus{
+ color: black;
+ font-size:bolder;
+
+}
+.this-template {
+    color: #555;
+}
+.get-started-btn {
+    color: #6d28d9;
+    width: auto
+}
+.webflow-png{
+    width: 840px auto;
+    height: 120px auto;
+}
+.contact-section {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.contact-text h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.2;
+}
+
+.contact-form {
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4a47d5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #3b38b5;
+}
+
